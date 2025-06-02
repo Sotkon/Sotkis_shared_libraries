@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5743DF6A-6A44-4366-88FF-1C6327D312BB}|tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj|c:\\users\\miguelgon\u00E7alves\\source\\repos\\sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\shared.authentication.tests\\shared.authentication.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5743DF6A-6A44-4366-88FF-1C6327D312BB}|tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj|solutionrelative:tests\\shared.authentication.tests\\shared.authentication.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07011742-D699-4E96-ADF3-5A170BC6748D}|src\\Shared.Authentication\\Shared.Authentication.csproj|c:\\users\\miguelgon\u00E7alves\\source\\repos\\sotkis_shared_libraries\\sotkis-shared-libraries\\src\\shared.authentication\\shared.authentication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{07011742-D699-4E96-ADF3-5A170BC6748D}|src\\Shared.Authentication\\Shared.Authentication.csproj|solutionrelative:src\\shared.authentication\\shared.authentication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07011742-D699-4E96-ADF3-5A170BC6748D}|src\\Shared.Authentication\\Shared.Authentication.csproj|c:\\users\\miguelgon\u00E7alves\\source\\repos\\sotkis_shared_libraries\\sotkis-shared-libraries\\src\\shared.authentication\\shared.authentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{07011742-D699-4E96-ADF3-5A170BC6748D}|src\\Shared.Authentication\\Shared.Authentication.csproj|solutionrelative:src\\shared.authentication\\shared.authentication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Shared.Authentication.Tests",
+              "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+              "ToolTip": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+              "RelativeToolTip": "tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T10:51:13.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shared.Authentication",
+              "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "RelativeDocumentMoniker": "src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "ToolTip": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "RelativeToolTip": "src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T10:51:02.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "src\\Shared.Authentication\\ClaimsPrincipalExtensions.cs",
@@ -62,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\Shared.Authentication\\ServiceCollectionExtensions.cs",
@@ -75,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\JwtSettings.cs",
               "RelativeDocumentMoniker": "src\\Shared.Authentication\\JwtSettings.cs",
@@ -87,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Shared.Authentication.csproj",
               "DocumentMoniker": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
               "RelativeDocumentMoniker": "src\\Shared.Authentication\\Shared.Authentication.csproj",
-              "ToolTip": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj*",
-              "RelativeToolTip": "src\\Shared.Authentication\\Shared.Authentication.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\MiguelGon\u00E7alves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "RelativeToolTip": "src\\Shared.Authentication\\Shared.Authentication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-02T07:49:51.816Z",
               "EditorCaption": ""
