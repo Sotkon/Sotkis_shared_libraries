@@ -1,0 +1,13 @@
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.deps.json
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.dll
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.pdb
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.csproj.AssemblyReference.cache
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.AssemblyInfoInputs.cache
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.AssemblyInfo.cs
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.sourcelink.json
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.dll
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\refint\Shared.Authentication.dll
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\Shared.Authentication.pdb
+C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\obj\Debug\net9.0\ref\Shared.Authentication.dll
