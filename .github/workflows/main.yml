@@ -1,18 +1,3 @@
-name: Publish NuGet Package
-
-on:
-  push:
-    branches: [main]
-    paths:
-      - '**.cs'
-      - '**.csproj'
-      - 'sotkis-shared-libraries/SharedLibraries.sln'
-      - '.github/workflows/**'
-
-env:
-  DOTNET_VERSION: '8.0.x'
-  PACKAGE_PROJECT_PATH: 'src/Shared.Authentication/Shared.Authentication.csproj'  # Update if needed
-
 jobs:
   build:
     runs-on: ubuntu-latest
