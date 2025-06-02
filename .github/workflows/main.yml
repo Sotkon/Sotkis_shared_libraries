@@ -1,4 +1,4 @@
-name: Build and Publish Shared Libraries
+name: Build and Test
 
 on:
   push:
@@ -21,11 +21,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Show current working directory and list contents (debug)
-      run: |
-        echo "Working dir: $(pwd)"
-        ls -la
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
@@ -37,5 +32,5 @@ jobs:
     - name: Build
       run: dotnet build SharedLibraries.sln --no-restore --configuration Release
 
-    - name: Run tests
-      run: dotnet test SharedLibraries.sln --no-build --verbosity normal
+    - name: Test
+      run: dotnet test SharedLibraries.sln --no-build
