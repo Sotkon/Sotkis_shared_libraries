@@ -6,7 +6,7 @@
     <authors>Sotkon</authors>
     <description>Shared authentication library for microservices</description>
     <tags>jwt authentication microservices</tags>
-    <repository type="git" commit="a91b01f296ed8a140527fb1c86964c3d6a49efd2" />
+    <repository type="git" commit="c2c05c8a1731bc104e3118215e99c182c6fec20f" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="8.0.0" exclude="Build,Analyzers" />
@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.dll" target="lib\net9.0\Shared.Authentication.dll" />
+    <file src="C:\Users\MiguelGonçalves\Source\Repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.dll" target="lib\net9.0\Shared.Authentication.dll" />
   </files>
 </package>

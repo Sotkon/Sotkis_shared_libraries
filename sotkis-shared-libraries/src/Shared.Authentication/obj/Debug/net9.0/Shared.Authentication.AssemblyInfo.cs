@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Shared authentication library for microservices")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a91b01f296ed8a140527fb1c86964c3d6a49efd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c05c8a1731bc104e3118215e99c182c6fec20f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shared.Authentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shared.Authentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
