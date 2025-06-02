@@ -6,12 +6,12 @@ on:
     paths:
       - '**.cs'
       - '**.csproj'
-      - 'SharedLibraries.sln'
+      - 'sotkis-shared-libraries/SharedLibraries.sln'
       - '.github/workflows/**'
 
 env:
   DOTNET_VERSION: '8.0.x'
-  PACKAGE_PROJECT_PATH: 'src/Shared.Authentication/Shared.Authentication.csproj'  # 🔁 Update to your .csproj path
+  PACKAGE_PROJECT_PATH: 'src/Shared.Authentication/Shared.Authentication.csproj'  # Update if needed
 
 jobs:
   build:
@@ -21,16 +21,22 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v4
 
+    - name: Debug: List repo files
+      run: |
+        pwd
+        ls -la
+        ls -la ./sotkis-shared-libraries
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Restore dependencies
-      run: dotnet restore ./SharedLibraries.sln
+      run: dotnet restore ./sotkis-shared-libraries/SharedLibraries.sln
 
     - name: Build
-      run: dotnet build ./SharedLibraries.sln --no-restore --configuration Release
+      run: dotnet build ./sotkis-shared-libraries/SharedLibraries.sln --no-restore --configuration Release
 
     - name: Pack
       run: dotnet pack ${{ env.PACKAGE_PROJECT_PATH }} --no-build --configuration Release --output ./nupkg
