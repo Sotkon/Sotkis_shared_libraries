@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj": {}
+    "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj": {
+    "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
         "projectName": "Shared.Authentication.Tests",
-        "projectPath": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
+        "projectPath": "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\Shared.Authentication.Tests.csproj",
         "packagesPath": "C:\\Users\\MiguelGonçalves\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\tests\\Shared.Authentication.Tests\\obj\\",
         "projectStyle": "PackageReference",

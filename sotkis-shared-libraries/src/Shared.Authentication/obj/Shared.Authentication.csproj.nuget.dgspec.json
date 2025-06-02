@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj": {}
+    "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj": {
+    "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
         "projectName": "sotkis.Shared.Authentication",
-        "projectPath": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
+        "projectPath": "C:\\Users\\MiguelGonçalves\\source\\repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\Shared.Authentication.csproj",
         "packagesPath": "C:\\Users\\MiguelGonçalves\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MiguelGonçalves\\Source\\Repos\\Sotkis_shared_libraries\\sotkis-shared-libraries\\src\\Shared.Authentication\\obj\\",
         "projectStyle": "PackageReference",
