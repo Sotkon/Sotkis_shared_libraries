@@ -1,41 +1,26 @@
-name: Publish NuGet Package to GitHub Packages
-
-on:
-  push:
-    branches: [ main ]
-  release:
-    types: [published]
-
-permissions:
-  packages: write
-  contents: read
-
-env:
-  DOTNET_VERSION: '8.0.x'
-
 jobs:
   publish:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
-    
+
     - name: Restore dependencies
-      run: dotnet restore
-    
+      run: dotnet restore Shared.Authentication.sln
+
     - name: Build
-      run: dotnet build --configuration Release --no-restore
-    
+      run: dotnet build Shared.Authentication.sln --configuration Release --no-restore
+
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
-    
+      run: dotnet test Shared.Authentication.sln --no-restore --verbosity normal
+
     - name: Create the package
       run: dotnet pack src/Shared.Authentication/Shared.Authentication.csproj --configuration Release
-    
+
     - name: Publish to GitHub Packages
       run: dotnet nuget push src/Shared.Authentication/bin/Release/*.nupkg --source https://nuget.pkg.github.com/Sotkon/index.json --api-key ${{ secrets.GITHUB_TOKEN }}
