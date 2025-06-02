@@ -9,6 +9,10 @@ on:
 env:
   DOTNET_VERSION: '8.0.x'
 
+defaults:
+  run:
+    working-directory: ${{ github.workspace }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,8 +21,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Show root directory contents (debug)
-      run: ls -la
+    - name: Show current working directory and list contents (debug)
+      run: |
+        echo "Working dir: $(pwd)"
+        ls -la
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
