@@ -3,9 +3,7 @@ name: Publish NuGet Package to GitHub Packages
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'src/Shared.Authentication/**'
-      - '.github/workflows/publish-package.yml'
+
   release:
     types: [published]
 
