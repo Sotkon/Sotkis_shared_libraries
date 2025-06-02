@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>sotkis.Shared.Authentication</id>
+    <version>1.0.0</version>
+    <authors>Sotkon</authors>
+    <description>Shared authentication library for microservices</description>
+    <tags>jwt authentication microservices</tags>
+    <repository type="git" commit="a91b01f296ed8a140527fb1c86964c3d6a49efd2" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\MiguelGonçalves\source\repos\Sotkis_shared_libraries\sotkis-shared-libraries\src\Shared.Authentication\bin\Debug\net9.0\Shared.Authentication.dll" target="lib\net9.0\Shared.Authentication.dll" />
+  </files>
+</package>
