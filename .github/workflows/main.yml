@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'src/Shared.Authentication/**'
-      - '.github/workflows/publish-package.yml'
+      - '.github/workflows/main.yml'
   release:
     types: [published]
 
