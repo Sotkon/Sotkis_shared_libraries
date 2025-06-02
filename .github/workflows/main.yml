@@ -2,8 +2,7 @@ name: Publish NuGet Package
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - '**.cs'
       - '**.csproj'
@@ -12,40 +11,44 @@ on:
 
 env:
   DOTNET_VERSION: '8.0.x'
-  PACKAGE_PROJECT_PATH: 'src/Shared.Authentication/Shared.Authentication.csproj'  # Update if needed
+  # Adjust this path if your project is in a different location relative to repo root
+  PACKAGE_PROJECT_PATH: 'sotkis-shared-libraries/src/Shared.Authentication/Shared.Authentication.csproj'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+    - name: Checkout source
+      uses: actions/checkout@v4
 
-      - name: Debug:List repo files
-        run: |
-          pwd
-          ls -la
-          ls -la ./sotkis-shared-libraries
+    - name: Debug:Show repo root files
+      run: ls -la
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
+    - name: Debug:List solution folder files
+      run: ls -la sotkis-shared-libraries
 
-      - name: Restore dependencies
-        run: dotnet restore ./sotkis-shared-libraries/SharedLibraries.sln
+    - name: Debug:List project folder files
+      run: ls -la sotkis-shared-libraries/src/Shared.Authentication
 
-      - name: Build
-        run: dotnet build ./sotkis-shared-libraries/SharedLibraries.sln --no-restore --configuration Release
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: Pack
-        run: dotnet pack ${{ env.PACKAGE_PROJECT_PATH }} --no-build --configuration Release --output ./nupkg
+    - name: Restore dependencies
+      run: dotnet restore sotkis-shared-libraries/SharedLibraries.sln
 
-      - name: Publish to GitHub Packages
-        run: dotnet nuget push ./nupkg/*.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
-        env:
-          NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build solution
+      run: dotnet build sotkis-shared-libraries/SharedLibraries.sln --no-restore --configuration Release
 
-      - name: Add GitHub source
-        run: dotnet nuget add source --username MiguelArinto --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text 	--name github "https://nuget.pkg.github.com/Sotkon/index.json"
+    - name: Pack project
+      run: dotnet pack ${{ env.PACKAGE_PROJECT_PATH }} --no-build --configuration Release --output ./nupkg
+
+    - name: Publish to GitHub Packages
+      run: dotnet nuget push ./nupkg/*.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
+      env:
+        NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Add GitHub NuGet source
+      run: dotnet nuget add source --username MiguelArinto --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/Sotkon/index.json"
