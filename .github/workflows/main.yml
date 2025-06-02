@@ -9,13 +9,13 @@ on:
 env:
   DOTNET_VERSION: '8.0.x'
 
-defaults:
-  run:
-    working-directory: ${{ github.workspace }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./ 
 
     steps:
     - name: Checkout code
