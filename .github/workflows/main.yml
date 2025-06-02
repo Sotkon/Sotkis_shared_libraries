@@ -38,7 +38,7 @@ jobs:
       run: dotnet test Shared.Authentication.sln --no-restore --verbosity normal
 
     - name: Create the package
-      run: dotnet pack src/Shared.Authentication/Shared.Authentication.csproj --configuration Release
+      run: dotnet pack src/Shared.Authentication/sotkis.Shared.Authentication.csproj --configuration Release
 
     - name: Publish to GitHub Packages
       run: dotnet nuget push src/Shared.Authentication/bin/Release/*.nupkg --source https://nuget.pkg.github.com/Sotkon/index.json --api-key ${{ secrets.GITHUB_TOKEN }}
