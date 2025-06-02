@@ -3,14 +3,12 @@ name: Publish NuGet Package to GitHub Packages
 on:
   push:
     branches: [ main ]
-
   release:
     types: [published]
 
-
 permissions:
-  packages: write
-  contents: read
+  packages: write
+  contents: read
 
 env:
   DOTNET_VERSION: '8.0.x'
