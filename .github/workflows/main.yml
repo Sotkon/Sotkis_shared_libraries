@@ -29,13 +29,13 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Restore dependencies
-      run: dotnet restore Shared.Authentication.sln
+      run: dotnet restore SharedLibraries.sln
 
     - name: Build
-      run: dotnet build Shared.Authentication.sln --configuration Release --no-restore
+      run: dotnet build SharedLibraries.sln --configuration Release --no-restore
 
     - name: Test
-      run: dotnet test Shared.Authentication.sln --no-restore --verbosity normal
+      run: dotnet test SharedLibraries.sln --no-restore --verbosity normal
 
     - name: Create the package
       run: dotnet pack src/Shared.Authentication/sotkis.Shared.Authentication.csproj --configuration Release
