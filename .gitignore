@@ -1,5 +1,27 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Build results
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-/sotkis-shared-libraries/.vs/SharedLibraries/FileContentIndex
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+*.env
+
+# GitHub Actions
+.github/workflows/*.log
