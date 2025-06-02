@@ -7,22 +7,18 @@ on:
     branches: [ main ]
 
 env:
-  DOTNET_VERSION: '8.0.x' # Adjust to your target framework
+  DOTNET_VERSION: '8.0.x'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ./sotkis-shared-libraries
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Show repo files (debug)
-      run: ls -la && ls -la ./sotkis-shared-libraries
+    - name: Show root directory contents (debug)
+      run: ls -la
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
@@ -37,6 +33,3 @@ jobs:
 
     - name: Run tests
       run: dotnet test SharedLibraries.sln --no-build --verbosity normal
-
-    # Optional: publish packages or copy artifacts here
-    # - name: Publish or Package step
